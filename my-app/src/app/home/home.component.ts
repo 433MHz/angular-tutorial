@@ -9,6 +9,9 @@ export class HomeComponent implements OnInit {
   homeTitle = "Welcome to the homepage...";
   textData = "This is from .ts";
   textDisabled = true;
+  alertMe(){
+    alert('Helllo');
+  }
   constructor() { }
 
   ngOnInit(): void {
