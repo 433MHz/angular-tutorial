@@ -1,2 +1,6 @@
-<p>game works!</p>
-{{name}}
+
+
+<h2>Podaj imie:</h2>
+<input type="text" #name> 
+<button (click)="changeName(name.value)">Zmień imie</button><br>
+{{userName}}
