@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   homeTitle = "Welcome to the homepage..."
+  textData = "This is from .ts"
   constructor() { }
 
   ngOnInit(): void {
